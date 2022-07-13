@@ -1,0 +1,106 @@
+ 
+.brandSection{
+	height: 180px; 
+	overflow-y: auto; 
+	overflow-x: hidden;
+}
+.product p{
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.product img{
+	width: 350px;
+	height: 200px;
+	margin-top: 5px;
+}
+.product a{
+	font-size: 16px;
+}
+#contenedor-producto{
+	position: relative;
+	width: 28%;
+	height: 350px;
+	display: flex;
+	margin-left: 60px;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid #000;*/
+	margin-bottom: 26px;
+	background-color: rgba(248, 247, 247, 0.692);
+	box-shadow: 5px 5px 10px #999;
+	border-radius: 10px;
+}
+.list-group label{
+
+	color: F1731C;
+	font-size: 16px;
+}
+.list-group h3{
+	color: #F1731C;
+	font-weight: bold;
+}
+.col-md-3{
+	background: rgba(248, 247, 247, 0.692);
+	box-shadow: 5px 5px 10px #999;
+	margin-top: 15px;
+}
+.list-group-item {
+	background: white;
+	border-bottom: none;
+	border-top: none;
+	
+	
+}
+
+/*tamaño del cuerpo*/
+.container{
+	width: 1600px;
+	padding-left: 10px;
+}
+
+
+
+header{
+    width: 100%;
+	height: 90px;
+   /* height: 110px;*/
+	background-color: #F1731C;
+    position: relative;
+}
+
+nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*background: rgba(0, 0, 0, 0.606);*/
+   }
+   .logo img{
+	   width: 350px;
+	   margin-left: 120px;
+   }
+   .navbar a{
+	   text-decoration: none;
+	   font-size: 20px;
+	   color: white;
+	   margin: 5px;
+	   align-items: center;
+	   
+   }
+   .navbar{
+	   margin-right: 150px;
+   }
+   header .navbar{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-top: 15px;
+   }
+ nav a:hover{
+	text-decoration: underline ;
+   }
+
+
